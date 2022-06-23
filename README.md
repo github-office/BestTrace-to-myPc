@@ -1,6 +1,16 @@
 # BestTrace-to-myPc
 ### ipip开发的路由追踪工具，用于检测VPS到自己电脑的路由情况。我只是搬运工。
 
+#### 使用方法
+```bash
+yum update
+yum install -y epel-release
+yum install uzip
+mkdir besttrace && cd besttrace
+wget https://github.com/github-office/BestTrace-to-myPc/releases/download/v1.3.2/besttrace4linux.zip
+unzip besttrace4linux.zip && chmod +x *
+./besttrace –q 1 IP地址
+```
 
 BestTrace 4 Linux/Mac/BSD
 
