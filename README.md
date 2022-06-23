@@ -6,11 +6,17 @@
 #### 使用方法
 ```bash
 yum update
+
 yum install -y epel-release
+
 yum install uzip
+
 mkdir besttrace && cd besttrace
+
 wget https://github.com/github-office/BestTrace-to-myPc/releases/download/v1.3.2/besttrace4linux.zip
+
 unzip besttrace4linux.zip && chmod +x *
+
 ./besttrace –q 1 IP地址
 ```
 
